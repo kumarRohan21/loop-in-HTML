@@ -1,0 +1,14 @@
+<html>
+<body>
+<h2> Javascrpit html Events</h2>
+enter your name: <input type="text" id="fname" onchange="lower()">
+<p> when you leave the input field,a function is a trigged which transforms a input to upper case</p>
+
+<script>
+function lower() {
+ const x = document.getElementById("fname");
+ x.value = x.value.toLowerCase();
+}
+</script>
+</body>
+</html>
